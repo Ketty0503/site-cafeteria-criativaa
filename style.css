@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Pacifico', sans-serif;
+}
+.cabecalho {
+    background-color: #FF62B5;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 0;
+}
+
+.cabecalho-imagem{
+    width: 10%;
+}
+
+.cabecalho-lista-item{
+    display: inline-block;
+    margin: 0 25px;
+    font-size: 20px;
+}
+
+.Cafeteria-imagem{
+    width: 25%;
+}
+
+.Cafeteria{
+    background-image: linear-gradient(#FF62B5 0%, #FFB2DB 60.08%, #FFECF6 100%);
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.Cafeteria-div-conteudo{
+    width: 50%;
+}
+
+
+.Cafeteria-titulo{
+    padding: 30px 0;
+}
+
+.Cafés{
+    padding: 20px 0;
+}
+.Cafés-imagem{
+    width: 190px;
+}
+
+.Cafés-icone{
+    width: 24px;
+    padding: 4px 8px;
+}
+
+.Cafés-div{
+    text-align: center;
+    padding: 16px 0;
+}
+
+.Cafés-titulo{
+    text-align: center;
+    padding: 50px 0;
+}
+
+.Cafés-todos{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
+
+.rodape{
+    background-color: #462A1D;
+    text-align: center;
+}
+
+.rodape-imagem{
+    height: 60px;
+    padding: 12px 0;
+   
+}
